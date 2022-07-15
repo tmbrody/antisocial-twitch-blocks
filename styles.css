@@ -1,0 +1,13 @@
+.block {
+  position: absolute; 
+  z-index: 999; 
+  background: rgba(0, 0, 0, 255); 
+  overflow: hidden; 
+  resize: both; 
+  width: 160px; 
+  height: 120px; 
+  min-width: 12px; 
+  min-height: 12px; 
+  max-width: 1300px; 
+  max-height: 600px;
+}

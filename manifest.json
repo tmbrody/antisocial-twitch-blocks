@@ -1,0 +1,15 @@
+{
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["script.js"],
+      "matches": [ "https://www.twitch.tv/*" ]
+    }],
+    "name": "Antisocial Twitch Blocks",
+    "version": "1.0.0",
+    "description": "Click anywhere on a Twitch video to create a resizable block to cover any facecams or chat areas you don't want to look at. Double-click a block to remove it.",
+    "manifest_version": 3,
+    "author": "tmbrody",
+    "icons": {
+      "128": "deny-icon.png"
+    }
+}
