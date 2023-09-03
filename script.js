@@ -1,4 +1,4 @@
-const videoBody = document.querySelector(".InjectLayout-sc-588ddc-0.persistent-player");
+const videoBody = document.querySelector('[class*="InjectLayout"][class*="persistent-player"]');
 
 videoBody.addEventListener("click", e => {
   const block = document.createElement('div');
